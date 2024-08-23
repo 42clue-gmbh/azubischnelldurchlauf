@@ -1,0 +1,4 @@
+influx_token : temperature_token
+influx_org : 42clue
+influx_bucket : temperatur_bucket
+influx_url : http://localhost:8086 #docker http://influxdb:8086

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "azubi-schnelldurchlauf"
+version = "0.1.0"
+description = ""
+authors = ["Leon Schmidt <lschmidt@nicos-ag.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+influxdb-client = "^1.45.0"
+pyyaml = "^6.0.2"
+flask = "^3.0.3"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
