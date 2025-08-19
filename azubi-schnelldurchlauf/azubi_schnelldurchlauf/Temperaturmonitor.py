@@ -46,3 +46,4 @@ class Temperaturmonitor:
         thread = Thread(target=self._run)
         thread.start()
         thread.join()
+
